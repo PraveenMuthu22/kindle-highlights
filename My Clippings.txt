@@ -1,0 +1,65 @@
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 48 | location 736-738 | Added on Saturday, 9 December 2023 21:40:30
+
+There are two parts to learning craftsmanship: knowledge and work. You must gain the knowledge of principles, patterns, practices, and heuristics that a craftsman knows, and you must also grind that knowledge into your fingers, eyes, and gut by working hard and practicing.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 57 | location 866-868 | Added on Saturday, 9 December 2023 21:53:51
+
+They had rushed the product to market and had made a huge mess in the code. As they added more and more features, the code got worse and worse until they simply could not manage it any longer. It was the bad code that brought the company down.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 60 | location 920-922 | Added on Saturday, 9 December 2023 21:59:08
+
+No. The managers and marketers look to us for the information they need to make promises and commitments; and even when they don’t look to us, we should not be shy about telling them what we think. The users look to us to validate the way the requirements will fit into the system
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 63 | location 966-967 | Added on Saturday, 9 December 2023 22:03:33
+
+clean code is pleasing to read. Reading it should make you smile the way a well-crafted music box or well-designed car would.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 64 | location 981-982 | Added on Saturday, 9 December 2023 22:06:09
+
+Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 64 | location 972-972 | Added on Saturday, 9 December 2023 22:07:25
+
+metaphor of broken windows.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 65 | location 986-987 | Added on Saturday, 9 December 2023 22:09:25
+
+Clean code never obscures the designer’s intent but rather is full of crisp abstractions and straightforward lines of control.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 68 | location 1040-1041 | Added on Saturday, 9 December 2023 22:15:43
+
+Expressiveness to me includes meaningful names,
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 69 | location 1044-1045 | Added on Saturday, 9 December 2023 22:16:18
+
+one method that says more clearly what it does, and some submethods saying how it is done.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 68 | location 1038-1039 | Added on Saturday, 9 December 2023 22:16:43
+
+When the same thing is done over and over, it’s a sign that there is an idea in our mind that is not well represented in the code.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 69 | location 1049-1050 | Added on Saturday, 9 December 2023 22:18:27
+
+After years of doing this work, it seems to me that all programs are made up of very similar elements. One example is “find things in a collection.”
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 68 | location 1038-1038 | Added on Saturday, 9 December 2023 22:21:33
+
+Of these, I focus mostly on duplication.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 70 | location 1059-1060 | Added on Saturday, 9 December 2023 22:22:48
+
+Reduced duplication, high expressiveness, and early building of simple abstractions.
+==========
