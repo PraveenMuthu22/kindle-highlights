@@ -63,3 +63,58 @@ Of these, I focus mostly on duplication.
 
 Reduced duplication, high expressiveness, and early building of simple abstractions.
 ==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 75 | location 1144-1150 | Added on Monday, 11 December 2023 20:36:03
+
+It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. Leave the campground cleaner than you found it.5 5. This was adapted from Robert Stephenson Smyth Baden-Powell’s farewell message to the Scouts: “Try and leave this world a little better than you found it…” If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 75 | location 1150-1152 | Added on Monday, 11 December 2023 20:36:30
+
+The cleanup doesn’t have to be something big. Change one variable name for the better, break up one function that’s a little too large, eliminate one small bit of duplication, clean up one composite if statement.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 79 | location 1212-1216 | Added on Monday, 11 December 2023 20:41:06
+
+int d; // elapsed time in days The name d reveals nothing. It does not evoke a sense of elapsed time, nor of days. We should choose a name that specifies what is being measured and the unit of that measurement:    int elapsedTimeInDays;    int daysSinceCreation;    int daysSinceModification;    int fileAgeInDays;
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:29
+
+The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:39
+
+The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:48
+
+The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 80 | location 1217-1218 | Added on Monday, 11 December 2023 20:49:16
+
+public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 80 | location 1217-1218 | Added on Monday, 11 December 2023 20:49:21
+
+public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 80 | location 1217-1220 | Added on Monday, 11 December 2023 20:49:29
+
+public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();      for (int[] x : theList)        if (x[0] == 4)          list1.add(x);      return list1;    }
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 81 | location 1236-1241 | Added on Monday, 11 December 2023 20:50:15
+
+public List<int[]> getFlaggedCells() {      List<int[]> flaggedCells = new ArrayList<int[]>();      for (int[] cell : gameBoard)       if (cell[STATUS_VALUE] == FLAGGED)         flaggedCells.add(cell);       return flaggedCells;    } Notice that the simplicity of the code has not changed. It still has exactly the same number of operators and constants, with exactly the same number of nesting levels. But the code has become much more explicit.
+==========
+﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
+- Your Highlight on page 81 | location 1241-1247 | Added on Monday, 11 December 2023 20:50:40
+
+We can go further and write a simple class for cells instead of using an array of ints. It can include an intention-revealing function (call it isFlagged) to hide the magic numbers. It results in a new version of the function:    public List<Cell> getFlaggedCells() {      List<Cell> flaggedCells = new ArrayList<Cell>();      for (Cell cell : gameBoard)        if (cell.isFlagged())          flaggedCells.add(cell);      return flaggedCells;    }
+==========
