@@ -1,435 +1,290 @@
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 48 | location 736-738 | Added on Saturday, 9 December 2023 21:40:30
+﻿Iliad (Homer)
+- Your Highlight on page 296 | location 4536-4545 | Added on Friday, 5 January 2024 19:48:33
 
-There are two parts to learning craftsmanship: knowledge and work. You must gain the knowledge of principles, patterns, practices, and heuristics that a craftsman knows, and you must also grind that knowledge into your fingers, eyes, and gut by working hard and practicing.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 57 | location 866-868 | Added on Saturday, 9 December 2023 21:53:51
-
-They had rushed the product to market and had made a huge mess in the code. As they added more and more features, the code got worse and worse until they simply could not manage it any longer. It was the bad code that brought the company down.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 60 | location 920-922 | Added on Saturday, 9 December 2023 21:59:08
-
-No. The managers and marketers look to us for the information they need to make promises and commitments; and even when they don’t look to us, we should not be shy about telling them what we think. The users look to us to validate the way the requirements will fit into the system
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 63 | location 966-967 | Added on Saturday, 9 December 2023 22:03:33
-
-clean code is pleasing to read. Reading it should make you smile the way a well-crafted music box or well-designed car would.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 64 | location 981-982 | Added on Saturday, 9 December 2023 22:06:09
-
-Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 64 | location 972-972 | Added on Saturday, 9 December 2023 22:07:25
-
-metaphor of broken windows.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 65 | location 986-987 | Added on Saturday, 9 December 2023 22:09:25
-
-Clean code never obscures the designer’s intent but rather is full of crisp abstractions and straightforward lines of control.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 68 | location 1040-1041 | Added on Saturday, 9 December 2023 22:15:43
-
-Expressiveness to me includes meaningful names,
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 69 | location 1044-1045 | Added on Saturday, 9 December 2023 22:16:18
-
-one method that says more clearly what it does, and some submethods saying how it is done.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 68 | location 1038-1039 | Added on Saturday, 9 December 2023 22:16:43
-
-When the same thing is done over and over, it’s a sign that there is an idea in our mind that is not well represented in the code.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 69 | location 1049-1050 | Added on Saturday, 9 December 2023 22:18:27
-
-After years of doing this work, it seems to me that all programs are made up of very similar elements. One example is “find things in a collection.”
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 68 | location 1038-1038 | Added on Saturday, 9 December 2023 22:21:33
-
-Of these, I focus mostly on duplication.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 70 | location 1059-1060 | Added on Saturday, 9 December 2023 22:22:48
-
-Reduced duplication, high expressiveness, and early building of simple abstractions.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 75 | location 1144-1150 | Added on Monday, 11 December 2023 20:36:03
-
-It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation. The Boy Scouts of America have a simple rule that we can apply to our profession. Leave the campground cleaner than you found it.5 5. This was adapted from Robert Stephenson Smyth Baden-Powell’s farewell message to the Scouts: “Try and leave this world a little better than you found it…” If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 75 | location 1150-1152 | Added on Monday, 11 December 2023 20:36:30
-
-The cleanup doesn’t have to be something big. Change one variable name for the better, break up one function that’s a little too large, eliminate one small bit of duplication, clean up one composite if statement.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 79 | location 1212-1216 | Added on Monday, 11 December 2023 20:41:06
-
-int d; // elapsed time in days The name d reveals nothing. It does not evoke a sense of elapsed time, nor of days. We should choose a name that specifies what is being measured and the unit of that measurement:    int elapsedTimeInDays;    int daysSinceCreation;    int daysSinceModification;    int fileAgeInDays;
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:29
-
-The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:39
-
-The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 79 | location 1210-1211 | Added on Monday, 11 December 2023 20:41:48
-
-The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 80 | location 1217-1218 | Added on Monday, 11 December 2023 20:49:16
-
-public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 80 | location 1217-1218 | Added on Monday, 11 December 2023 20:49:21
-
-public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 80 | location 1217-1220 | Added on Monday, 11 December 2023 20:49:29
-
-public List<int[]> getThem() {      List<int[]> list1 = new ArrayList<int[]>();      for (int[] x : theList)        if (x[0] == 4)          list1.add(x);      return list1;    }
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 81 | location 1236-1241 | Added on Monday, 11 December 2023 20:50:15
-
-public List<int[]> getFlaggedCells() {      List<int[]> flaggedCells = new ArrayList<int[]>();      for (int[] cell : gameBoard)       if (cell[STATUS_VALUE] == FLAGGED)         flaggedCells.add(cell);       return flaggedCells;    } Notice that the simplicity of the code has not changed. It still has exactly the same number of operators and constants, with exactly the same number of nesting levels. But the code has become much more explicit.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 81 | location 1241-1247 | Added on Monday, 11 December 2023 20:50:40
-
-We can go further and write a simple class for cells instead of using an array of ints. It can include an intention-revealing function (call it isFlagged) to hide the magic numbers. It results in a new version of the function:    public List<Cell> getFlaggedCells() {      List<Cell> flaggedCells = new ArrayList<Cell>();      for (Cell cell : gameBoard)        if (cell.isFlagged())          flaggedCells.add(cell);      return flaggedCells;    }
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 82 | location 1253-1254 | Added on Tuesday, 12 December 2023 20:37:14
-
-avoid words whose entrenched meanings vary from our intended meaning.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 82 | location 1253-1255 | Added on Tuesday, 12 December 2023 20:37:25
-
-avoid words whose entrenched meanings vary from our intended meaning. For example, hp,
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 85 | location 1289-1290 | Added on Tuesday, 12 December 2023 20:38:36
-
-because you can’t use the same name to refer to two different things in the same scope, you might be tempted to change one name in an arbitrary way
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 85 | location 1300-1302 | Added on Tuesday, 12 December 2023 20:40:36
-
-This function reads much better when source and destination are used for the argument names.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 85 | location 1302-1305 | Added on Tuesday, 12 December 2023 20:41:24
-
-Noise words are another meaningless distinction. Imagine that you have a Product class. If you have another called ProductInfo or ProductData,
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 86 | location 1316-1316 | Added on Tuesday, 12 December 2023 20:43:48
-
-Noise words are redundant.
-==========
-﻿Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)
-- Your Highlight on page 86 | location 1318-1320 | Added on Tuesday, 12 December 2023 20:43:53
-
-How is NameString better than Name? Would a Name ever be a floating point number?
+First Telamonian Ajax, like a rampart protecting the Greek troops, broke through the line of Trojans, bringing light to his companions. He struck the finest of the Thracian fighters, the son of Eussorus, strong Acamas. 10 He hit the crest-piece of his horsehair plume. 10 The bronze tip stabbed between his eyes and pierced into his skull, and darkness veiled his sight. Then Diomedes, master of the war cry, slaughtered the son of Teuthras, Axylus, who used to live in beautiful Arisbe. He had a rich estate and wealthy home, and everybody loved him. He was kind,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 99 | location 1506-1519 | Added on Thursday, 4 January 2024 18:09:50
+- Your Highlight on page 297 | location 4545-4550 | Added on Friday, 5 January 2024 19:48:45
 
-if you will swear that you will keep me safe. Protect me with your actions and your words. I am afraid I may enrage a man who has great power over all the Greeks, whom everybody follows and obeys. A leader is more powerful and stronger 80 when he is angry with a lesser man. 110 He may consume his anger for that day, but he will keep the grudge inside his belly until at last he acts on it. So tell me if you will keep me safe.” And in reply swift-footed Lord Achilles said to him, “You do not need to worry now. Speak freely and tell us what you know about the gods. By Lord Apollo, the dear son of Zeus, to whom you pray when you reveal to us the gods’ intentions, Calchas, this I swear— 120 no one will lay a heavy hand on you beside the hollow ships, not while I live and see the light. Not one of all the Greeks will harm you, even if you speak about
+and generous and welcomed everyone who passed that way as guests inside his home. 20 None of his friends stepped in to help him now. No one protected him from bitter death. His life was taken. Diomedes killed Axylus and his man Calesius, the driver of his chariot and horses. So both those men sank down upon the earth.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 100 | location 1531-1537 | Added on Thursday, 4 January 2024 18:10:36
+- Your Highlight on page 298 | location 4568-4570 | Added on Friday, 5 January 2024 19:49:01
 
-But Agamemnon, son of Atreus, 140 the mighty lord and warrior, stood up aggrieved, his black heart full of furious rage. His eyes shone bright as fire. He scowled at Calchas and said to him, “You prophet of disaster! Your words have never done me any good. You always love foretelling pain and trouble but you have never mentioned or fulfilled one single good thing. Now you tell the Greeks more tales about the wishes of the gods.
+Then Menelaus shouted and seized a prisoner alive— Adrastus, when his horses fled in panic across the plain and ran into a branch of tamarisk.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 101 | location 1538-1545 | Added on Thursday, 4 January 2024 18:10:57
+- Your Highlight on page 299 | location 4572-4575 | Added on Friday, 5 January 2024 19:49:18
 
-You claim the archer laid this pain on us 150 because I did not want to take the ransom. I want the girl Chryseis in my home. I like her more than my own Clytemnestra, my wife. You see, she is no worse than her in figure, height, intelligence, or skill. But I am still prepared to give her back, if that is best. I want the army safe, not dead. Now go, find me another trophy, so I am not the only Greek commander who lacks a trophy. That would be unfair.
+Adrastus toppled from the chariot and fell flat with his mouth down in the dust. Then Menelaus, son of Atreus, 60 straddled him, with his spear grasped in his hand. Adrastus grabbed his knees and pleaded with him.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 102 | location 1552-1556 | Added on Thursday, 4 January 2024 18:11:32
+- Your Highlight on page 299 | location 4576-4584 | Added on Friday, 5 January 2024 19:49:34
 
-You have to send this woman to the god at once. One day we Greeks will pay you back with treasure worth three times as much, or four, if ever Zeus grants us the chance to take the high-walled town of Troy.” Lord Agamemnon 130
+“Please, son of Atreus, take me alive! I will reward you handsomely. My father is rich and has great wealth at home—gold, bronze, and well-worked iron. He will freely give you vast quantities of treasure as my ransom, if he finds out that I am still alive 50 beside your ships.” And these words touched the heart of Menelaus. Right away, he wanted 70 to have his steward take Adrastus back towards the swift Greek ships. But Agamemnon ran up and scolded him. “Soft Menelaus! Why do you take such care of men like him?
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 104 | location 1581-1591 | Added on Thursday, 4 January 2024 18:12:23
+- Your Highlight on page 299 | location 4584-4595 | Added on Friday, 5 January 2024 19:49:59
 
-I came with you, you brazen cheat, to please you! To claim back compensation from the Trojans for Menelaus and for you—you dog-face! 160 But none of that means anything to you. You do not even care! And now you threaten to take away the trophy that I worked for, after the sons of Greece gave it to me. 220 You always get a better one than mine, when we sack any wealthy Trojan town. My hands work hardest in the frenzied fighting, but when we share the spoils, you get much more. I come back to the ships worn out from battle, with something valuable to me, but small. So I will go back home to Phthia now, in my curved ships, because that is much better.
+Have Trojans always acted with great kindness to you and everybody in your household? Let none of them escape the massacre dealt by our deadly hands, not even one! Even the little babies not yet born, whose mothers carry them inside their bellies, 80 will not escape. All males alive in Troy will die, obliterated all at once, 60 with no one left to care for them.” With this, he changed his brother’s mind, persuading him to do what must be done. So Menelaus pushed brave Adrastus off him with his hand, and mighty Agamemnon stabbed his side. He toppled down, face-up, and Agamemnon, the son of Atreus, stepped on his chest and pulled the ash spear out.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 103 | location 1571-1573 | Added on Thursday, 4 January 2024 18:13:09
+- Your Highlight on page 310 | location 4744-4752 | Added on Friday, 5 January 2024 19:50:46
 
-This leader must appease the god of distance by making proper sacrifice to him.” 200 Swift-footed Lord Achilles scowled and said, “Incredible!
+Now you and I are also loving guest-friends, and I will visit you one day in Argos, and you will come to visit me in Lycia, whenever I arrive back home again. So let us now avoid each other’s spears, even amid the thickest battle scrum. Plenty of Trojans and their famous allies are left for me to slaughter, when a god or my quick feet enable me to catch them. And you have many other Greeks to kill 310 whenever you are able. Let us now 230 exchange our arms and armor with each other, so other men will know that we are proud to be each other’s guest-friends through our fathers.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 102 | location 1563-1573 | Added on Thursday, 4 January 2024 18:13:42
+- Your Highlight on page 312 | location 4780-4781 | Added on Friday, 5 January 2024 19:51:38
 
-and seize a trophy for myself—your trophy! Or that of Ajax or Odysseus! The man I visit will be furious. 140 We will discuss all this another time. 190 But come now, let us drag the black ship down and launch it on the bright salt sea and gather a crew of rowers, and then stow aboard the hecatomb and beautiful Chryseis. One council member needs to go and lead them— perhaps godlike Odysseus or Ajax or Idomeneus or you, Achilles, the wildest, most aggressive man alive. This leader must appease the god of distance by making proper sacrifice to him.” 200 Swift-footed Lord Achilles scowled and said, “Incredible!
+But mighty Hector of the flashing helmet answered, “No, Mother. Do not fetch me wine,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 103 | location 1573-1591 | Added on Thursday, 4 January 2024 18:15:04
+- Your Highlight on page 312 | location 4782-4784 | Added on Friday, 5 January 2024 19:51:52
 
-Swift-footed Lord Achilles scowled and said, “Incredible! You dress in shame! You are obsessed with getting profits for yourself! 150 Which of the Greeks would willingly agree to make a trip because you told them to, or fight against an enemy for you? I did not come to Troy because I wanted to fight against the warriors of Troy. They never did me any harm at all. They never raided cows from me nor horses, 210 nor blighted fertile fields that feed the men of Phthia, far away across so many shadowy hills, reverberating seas. I came with you, you brazen cheat, to please you! To claim back compensation from the Trojans for Menelaus and for you—you dog-face! 160 But none of that means anything to you. You do not even care! And now you threaten to take away the trophy that I worked for, after the sons of Greece gave it to me. 220 You always get a better one than mine, when we sack any wealthy Trojan town. My hands work hardest in the frenzied fighting, but when we share the spoils, you get much more. I come back to the ships worn out from battle, with something valuable to me, but small. So I will go back home to Phthia now, in my curved ships, because that is much better.
+in case it weakens me and I forget my will to fight. And I would feel ashamed to pour bright wine for Zeus with unwashed hands. A person smeared with blood and gore should not pray to the son of Cronus, god of dark clouds.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 143 | location 2179-2182 | Added on Thursday, 4 January 2024 18:20:16
+- Your Highlight on page 313 | location 4796-4801 | Added on Friday, 5 January 2024 19:52:11
 
-Thersites yelled and cursed at Agamemnon. “You, son of Atreus! What do you need? 270 What is your grievance? You already have huts full of bronze and full of handpicked women whom we Greek warriors assigned to you.
+will go and summon Paris to come with me, if he will hear my words. I wish the earth would gape and swallow him! Olympian Zeus protected him and raised him as a catastrophe for all the Trojans, 380 including valiant Priam and his children. If I saw Paris going down to Hades, my mind could start forgetting grief and pain.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 143 | location 2182-2196 | Added on Thursday, 4 January 2024 18:20:28
+- Your Highlight on page 316 | location 4834-4837 | Added on Friday, 5 January 2024 19:53:02
 
-You get first choice whenever we take towns. Do you need yet more gold? Some Trojan horse-lord 230 will bring it out of Troy to free his son, captured by me or by some other Greek and brought to you. Or do you need a woman, a young one to have sex with and to keep all for yourself? It is not right for you, 280 a leader, to involve the Greeks in ruin. Sweethearts, you are a terrible disgrace— Greek girls, not men. Now let us sail back home with all the ships and leave this man behind! Let him consume his winnings here at Troy, so he can see if we helped him or not. Just now he brought dishonor to Achilles who is a better man than him by far. 240 He took his trophy from him and has kept it. No anger lurks inside Achilles’ heart. 290 He lets things go. If he were more persistent, this would have been the last time, Agamemnon, you would have treated anyone so badly.”
+Hector found Paris in his inner chamber, 430 fiddling with his beautiful equipment, his spear and breastplate, and his hands were stroking his curving bow. With him sat Argive Helen, among her slave girls.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 144 | location 2196-2197 | Added on Thursday, 4 January 2024 18:20:41
+- Your Highlight on page 316 | location 4839-4846 | Added on Friday, 5 January 2024 19:53:24
 
-So spoke Thersites as he criticized the shepherd of the people,
+“You are so strange! It is not right for you to be so angry. The troops around our city and high wall are dying! War is raging round this town 440 because of you! And you yourself would challenge and fight with anyone you saw hold back 330 from hateful war—as you are doing now! Come on, get up, or very soon our city will burn with blazing fire.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 144 | location 2197-2210 | Added on Thursday, 4 January 2024 18:20:56
+- Your Highlight on page 316 | location 4846-4851 | Added on Friday, 5 January 2024 19:53:38
 
-Quickly Odysseus stepped in and scowled, and scolded him. “You blabbermouth, Thersites! You are quite marvelous at public speaking. But now shut up! You must not pick a quarrel alone against the rulers of the army. 300 You are the very worst, in my opinion, of all the mortal men who came to Troy with Agamemnon, son of Atreus. 250 Your mouth should never speak the names of rulers. You must not level insults at your betters, or look around for chances to get home. We do not know yet how these things will go— whether the sons of Greece will get home safe, or have a bitter journey. You sit there and criticize the son of Atreus, 310 Lord Agamemnon, shepherd of the people, because the Greeks have given him so much. You keep complaining, but I tell you this,
+And godlike Paris, great Alexander, answered, “Hector, yes, you scold me just enough and not too much. So let me tell you something. Listen please and pay attention. I do not sit here inside my bedroom out of irritation 450 or anger at the Trojans. I was grieving. I tried to turn myself entirely over to sadness. But just now, my wife was
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 145 | location 2210-2220 | Added on Thursday, 4 January 2024 18:21:18
+- Your Highlight on page 316 | location 4846-4851 | Added on Friday, 5 January 2024 19:53:42
 
-and swear that it will surely come to pass, if I find out that you continue acting as stupidly as you are doing now, I hope my head stops resting on my shoulders, and let Odysseus no more be called 260 the father of Telemachus, unless I grab you, rip your cloak and tunic off, 320 expose your private parts, and beat you up, humiliating you with blows. I shall force you to leave the meeting place and go back to the swift ships, weeping and ashamed.” With that, Odysseus began to use his staff to thrash Thersites on his shoulders till he hunched over, sobbing. On his back a bloody weal puffed up beneath the rod of gold. He sat down, frightened and in pain and helplessly he wiped away his tears.
+And godlike Paris, great Alexander, answered, “Hector, yes, you scold me just enough and not too much. So let me tell you something. Listen please and pay attention. I do not sit here inside my bedroom out of irritation 450 or anger at the Trojans. I was grieving. I tried to turn myself entirely over to sadness. But just now, my wife was
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 145 | location 2222-2223 | Added on Thursday, 4 January 2024 18:21:42
+- Your Highlight on page 316 | location 4846-4852 | Added on Friday, 5 January 2024 19:53:48
 
-The men were troubled but they smiled and laughed, and told each other,
+And godlike Paris, great Alexander, answered, “Hector, yes, you scold me just enough and not too much. So let me tell you something. Listen please and pay attention. I do not sit here inside my bedroom out of irritation 450 or anger at the Trojans. I was grieving. I tried to turn myself entirely over to sadness. But just now, my wife was saying gently, persuasively, that I should go back to the war.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 145 | location 2223-2228 | Added on Thursday, 4 January 2024 18:21:57
+- Your Highlight on page 317 | location 4858-4867 | Added on Friday, 5 January 2024 19:54:09
 
-“This is something special! Odysseus has often done great things. He forms good plans and marshals troops for war. But now he has performed his greatest service for all of us—he silenced that rude windbag! Thersites will not come back here again, led by his strong proud heart to criticize the rulers with insulting words.”
+“Brother-in-law, I am a source of fear and source of evil strategy—a dog. I wish that at the start, right when my mother gave birth to me, a cruel gust of wind had borne me to the mountains, or the waves of loud-resounding sea, and swept me off, before all this could happen. But the gods ordained these troubles as they came to pass. 350 I wish I shared a bed with someone better, 470 a man who understood the condemnation his actions would incur from other people. This man has no good sense, no self-control, and no capacity to change. One day he surely will receive his retribution.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 181 | location 2765-2768 | Added on Thursday, 4 January 2024 18:22:46
+- Your Highlight on page 323 | location 4943-4951 | Added on Saturday, 6 January 2024 08:56:17
 
-When godlike Paris Alexander saw him appear among the foremost line of fighters, his confidence was battered and he slunk 40 back to his group of friends, avoiding death.
+Please think of me, have pity, and stay here on the wall. Please do not make your son an orphan and your wife a widow. Line up the troops beside the wild fig tree, the place the enemy might scale the wall and strike the town of Troy. The Greeks have come to try that very spot three times already. 590 Brave Diomedes, son of Tydeus, both sons of Atreus, the two named Ajax, and famous Idomeneus attacked right there with all their other finest fighters. Perhaps someone who knew divine intentions told them, or their own impulse led them there.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 181 | location 2771-2780 | Added on Thursday, 4 January 2024 18:23:12
+- Your Highlight on page 323 | location 4952-4957 | Added on Saturday, 6 January 2024 08:56:32
 
-But Hector saw him and reproached and shamed him. “Pathetic Paris! Womanizer! Cheat! You are the very best at looking pretty. 40 50 Oh, how I wish that you had never lived or died unmarried. That would be far better than life as such an object of contempt. The Greeks will surely laugh at you and say you look so handsome, like a champion, but in your heart there is no will to fight, no courage—yet, despite your feebleness, you gathered up a crew of trusty men and sailed in sturdy ships across the sea to intermingle with the foreigners,
+Great Hector in his flashing helmet answered, “Woman, I care about all these things too. But I feel overwhelming shame in front of the Trojan women in their trailing dresses 600 and Trojan men, if I shrink back from war as if I were a coward. And my spirit tells me I must not stop, for I have learned always to be a warrior and fight among the frontline champions of Troy,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 182 | location 2781-2783 | Added on Thursday, 4 January 2024 18:23:26
+- Your Highlight on page 323 | location 4952-4958 | Added on Saturday, 6 January 2024 08:56:37
 
-and brought a pretty woman back with you, whose relatives by marriage are strong spearmen. You brought great suffering to all of us—
+Great Hector in his flashing helmet answered, “Woman, I care about all these things too. But I feel overwhelming shame in front of the Trojan women in their trailing dresses 600 and Trojan men, if I shrink back from war as if I were a coward. And my spirit tells me I must not stop, for I have learned always to be a warrior and fight among the frontline champions of Troy, to win great glory for the king my father
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 182 | location 2789-2791 | Added on Thursday, 4 January 2024 18:23:42
+- Your Highlight on page 324 | location 4958-4960 | Added on Saturday, 6 January 2024 08:56:46
 
-The Trojans are such cowards! Were they not, they would have dressed you in a shirt of rocks for all the evils you have perpetrated.”
+and for myself. You see, my heart and mind know this for sure—that there will be a day when holy Troy will be destroyed, and Priam, lord of the ash-wood spear, and all our people.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 183 | location 2803-2807 | Added on Thursday, 4 January 2024 18:24:05
+- Your Highlight on page 324 | location 4962-4973 | Added on Saturday, 6 January 2024 08:56:55
 
-And let the winning man, the stronger fighter, get all the wealth and take the woman home. The rest of you must sacrifice and swear a solemn oath of friendship. Keep your homes in fertile Troy and let the Greeks return to Greece, where horses pasture in the fields, and women are most beautiful.”
+But no one matters more to me than you. No pain that anyone in Troy will suffer, not even Hecuba or high king Priam, not even all my many noble brothers, who will be slaughtered by our enemies and fall amid the dust in days to come— no pain of theirs affects me more than yours. One day some bronze-armed Greek will capture you, and you will weep, deprived of all your freedom. Then you will weave to serve another woman 620 in Argos. You will have to carry water from River Hyperea or Messeis, entirely against your will, but forced by strong necessity. And sometimes people will see you weeping there and they will say, 460 ‘That woman used to be the wife of Hector, who was the greatest champion of Troy during the Trojan War.’ When they say that, your pain and grief will feel brand-new again,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 184 | location 2810-2814 | Added on Thursday, 4 January 2024 18:24:36
+- Your Highlight on page 325 | location 4974-4977 | Added on Saturday, 6 January 2024 08:57:05
 
-The long-haired Greeks hurled javelins at him, 80 and pelted stones and shot at him with arrows. But Agamemnon, lord of men, called out, “Hold back, young men of Greece, and do not shoot him! Hector in his bright helmet comes to talk.”
+because you do not have a man like me 630 to save you from the day of your enslavement. But as for me, I hope I will be dead, and lying underneath a pile of earth, so that I do not have to hear your screams or watch when they are dragging you away.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 188 | location 2881-2889 | Added on Thursday, 4 January 2024 18:25:56
+- Your Highlight on page 325 | location 4978-4987 | Added on Saturday, 6 January 2024 08:57:31
 
-So spoke the old men. But then Priam called Helen to come to him, and said, 200 “Dear child, come sit by me and watch your former husband and family and friends and relatives. I do not blame you in the least for this. I blame the gods who roused the tears of war, in conflict with the Greeks. Now who is that enormous man down there? Please let me know. I have seen others taller, but my eyes have never seen a man with such good looks, 170 with such authority. Indeed, he seems so like a leader.”
+Then noble Hector reached towards his son. The baby wailed and wiggled back to snuggle into his well-groomed nurse’s lap and dress. The child was scared by how his father looked, shocked at the terrifying horsehair plume 470 640 that nodded at the top part of his helmet. His loving father and his mother laughed. Hector immediately took off his helmet and put it on the ground. It glittered brightly. Then glorious Hector kissed his darling son and took him in his arms to rock and cuddle and prayed to Zeus and all the other gods, “Zeus and you other gods, please let my son be just like me—admired among the Trojans, strong and successful on the battlefield,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 189 | location 2890-2894 | Added on Thursday, 4 January 2024 18:26:20
+- Your Highlight on page 326 | location 4988-4995 | Added on Saturday, 6 January 2024 08:57:47
 
-Glorious Helen answered, “Father-in-law, I love you and respect you. I wish that I had chosen painful death the day I came here with your son and left my bedroom, kinsmen, late-born precious daughter, and cherished group of women friends. I did not. That is why I have melted into tears.
+and powerful enough to rule in Troy. I hope they say when he comes back from war, 480 ‘This man is so much better than his father.’ I hope he kills an enemy of ours and brings his bloodstained arms and armor back, and makes his mother happy.’” With these words, he gave his son to his beloved wife. She let him snuggle in her perfumed dress, and tearfully she smiled. Her husband noticed and pitied her. He took her by the hand and said to her,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 195 | location 2989-2997 | Added on Thursday, 4 January 2024 18:27:14
+- Your Highlight on page 333 | location 5098-5100 | Added on Saturday, 6 January 2024 08:58:42
 
-If Paris slaughters Menelaus, let him keep Helen and keep all the wealth and treasure, and let our fleet sail home across the sea. If light-haired Menelaus slaughters Paris, then let the Trojans give back all the wealth and Helen, and they also have to give appropriate compensation to us Greeks, to glorify us even in the eyes of people in the future. But if Priam and Priam’s sons refuse to pay the price 360 when Paris is defeated, I shall fight 290 to make them give me recompense, and stay right here until I make an end of war.”
+Hector was very glad to hear these words. He strode among the troops and calmed them down, grasping the center of his spear. He made the Trojans all sit down, and Agamemnon ordered the well-armed Greeks to sit down also.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 197 | location 3009-3026 | Added on Thursday, 4 January 2024 18:27:41
+- Your Highlight on page 335 | location 5136-5137 | Added on Monday, 8 January 2024 08:18:18
 
-“Now listen to me, Trojans and well-armed Greeks. I will go back towards 380 the windy town of Troy. I cannot bear to watch with my own eyes my own dear son fighting with Menelaus, friend to Ares. Zeus and the other deathless gods must know which of the two has been ordained to die.” 310 With these words Priam, equal of the gods, loaded the lambs inside his handsome carriage, and mounted it himself and took the reins. Antenor climbed beside him and the two 390 sped back to Troy. Then Hector, Priam’s son, and glorious Odysseus first measured the area, then took the lots and shook them in a bronze helmet to find out which fighter should hurl his bronze spear first. The people prayed, lifting their arms up to the gods, and each, Trojans and Greeks alike, made prayers like this. 320 “Lord Zeus, our mighty father, nursed on Ida, you are the most magnificent and greatest! Whichever of these two men is to blame 400 for what is happening to Greece and Troy, let that man die and so descend to Hades, and may we have a truce and pact of friendship.”
+When Hector finished speaking, all the others stayed silent, too embarrassed to refuse,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 197 | location 3009-3013 | Added on Thursday, 4 January 2024 18:27:51
+- Your Highlight on page 335 | location 5137-5148 | Added on Monday, 8 January 2024 08:18:29
 
-“Now listen to me, Trojans and well-armed Greeks. I will go back towards 380 the windy town of Troy. I cannot bear to watch with my own eyes my own dear son fighting with Menelaus, friend to Ares. Zeus and the other deathless gods must know which of the two has been ordained to die.”
+and too afraid to take him up on it. Time passed. Then Menelaus stood and spoke. “You useless show-offs! Not Greek men, but women! It will be terrible humiliation if none of us will take up Hector’s challenge. 130 I hope you all turn into earth and water, 100 just sitting there, no life or courage in you! But I will arm myself to fight with him. The final limits of the victory lie with the everlasting gods above.” With this, he strapped his glorious armor on. And surely at that moment, Menelaus, you would have seen your life’s end, at the hands of Hector, because he was so much stronger, had not the leaders of the Greeks rushed in 140 and seized you.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 204 | location 3120-3122 | Added on Thursday, 4 January 2024 18:29:40
+- Your Highlight on page 336 | location 5148-5151 | Added on Monday, 8 January 2024 08:18:38
 
-Helen, the child of Zeus who bears the aegis, sat there. Her eyes would not meet his. She spoke and scolded her husband. “So you came back from the fighting.
+Agamemnon, your own brother, the influential son of Atreus, grabbed your right hand and spoke to you and said, “Stop! You are acting crazy, Menelaus! You are a king, a favorite of Zeus. You must avoid such folly and hold back,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 204 | location 3122-3124 | Added on Thursday, 4 January 2024 18:30:03
+- Your Highlight on page 337 | location 5153-5156 | Added on Monday, 8 January 2024 08:18:53
 
-wish that you had died out there, defeated 540 by that strong man who used to be my husband. 430
+pursue the quarrel and attempt to fight a better man, Hector, the son of Priam. Everyone fears him! Even great Achilles 150 shrinks from encountering this man in combat, and he is far superior to you.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 204 | location 3125-3129 | Added on Thursday, 4 January 2024 18:30:09
+- Your Highlight on page 347 | location 5315-5317 | Added on Monday, 8 January 2024 08:19:41
 
-Before, you claimed you were superior to warlike Menelaus in your strength and hands and spear. So go on, challenge him! Call Menelaus back again to fight you! But no. I order you to stop. Do not make war and fight with ruddy Menelaus. It would be idiotic. You would soon lose and lie dead beneath that fighter’s spear.”
+and cruel conflict now, just for today. Tomorrow, we will fight again, until some deity decides between us two and grants the victory to one of us. Night has arrived already. It is good
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 205 | location 3129-3136 | Added on Thursday, 4 January 2024 18:30:33
+- Your Highlight on page 347 | location 5318-5331 | Added on Monday, 8 January 2024 08:19:50
 
-Then Paris answered, “Do not scold me, wife, 550 with so much criticism of my courage. It is true Menelaus beat me this time— thanks to Athena. Next time, I shall win. 440 We also have some gods on our own side. But come now, let us go to bed and take pleasure in making love. I never felt desire like this enfolded all around me, not even when I first took you away by ship across the sea from lovely Sparta, and afterwards, upon the isle of Cranae,
+yield to night. Ajax, when you return, the Greeks beside the ships will be delighted, especially your own relatives and comrades. I will bring joy throughout the town of Priam to all the Trojan men and Trojan women. The women in their trailing robes will hold a holy festival to pray for me. Now, Ajax, let us trade some precious gifts. 300 Then people on the Greek and Trojan sides will say we fought in life-devouring combat, 390 but then we separated as good friends.” With that, he gave a silver-studded sword, complete with scabbard and well-fashioned strap. Ajax gave him a belt, bright red with dye. And then they went their separate ways, and Ajax rejoined the army of the Greeks, while Hector returned to the noisy clamor of the Trojans, who were delighted when they saw him safe, alive and well, having escaped the danger of Ajax, whose indomitable hands
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 207 | location 3172-3173 | Added on Thursday, 4 January 2024 18:31:26
+- Your Highlight on page 354 | location 5414-5418 | Added on Monday, 8 January 2024 08:20:22
 
-We have to strategize. Shall we rouse up terrible war and bitter strife again?
+“Nobody should take anything from Paris! Do not accept the treasure back, not now, nor Helen. It is obvious by now, 520 even to fools, the Trojans are already entangled tightly in the ropes of ruin.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 207 | location 3173-3173 | Added on Thursday, 4 January 2024 18:31:34
+- Your Highlight on page 351 | location 5368-5372 | Added on Monday, 8 January 2024 08:20:36
 
-Or should we reconcile the warring sides?
+Bring Argive Helen and her treasure here. Let us return it all to Menelaus and Agamemnon, sons of Atreus. We are the ones who broke the solemn oaths before the fighting started up again. I do not think things will go well for us unless we do as I suggest.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 207 | location 3174-3176 | Added on Thursday, 4 January 2024 18:31:45
+- Your Highlight on page 351 | location 5375-5376 | Added on Monday, 8 January 2024 08:20:49
 
-If peace is sweet and pleasing to us all, the city of Lord Priam may continue to be inhabited, and Menelaus can take back Argive Helen as his wife.”
+“Antenor, these words are not the kind I like to hear.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 208 | location 3182-3187 | Added on Thursday, 4 January 2024 18:32:19
+- Your Highlight on page 351 | location 5376-5382 | Added on Monday, 8 January 2024 08:21:08
 
-“You are the very worst of all the children of our father Cronus! What have you said? How could you make my labor useless—a pointless struggle to no end? What about all my hard work, all my sweat? I drove my chariot horses to exhaustion gathering this great army to bring ruin to Priam and his children. Well, go on, do it. But not a single other god will speak in favor of your choices.”
+You know how to come up with better speeches. If you are serious in saying this, 360 the gods themselves must have destroyed your mind. I shall speak out among the Trojan horsemen and tell them quite explicitly I will not give back the woman—though I am quite willing to give them back the treasure that I took 470 from Greece and brought to my house. And, moreover, I can add other items of my own.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 208 | location 3189-3199 | Added on Thursday, 4 January 2024 18:32:51
+- Your Highlight on page 400 | location 6126-6133 | Added on Monday, 8 January 2024 08:24:07
 
-the god who musters clouds, was deeply troubled. He answered, “Hera, you are very strange! What dreadful wrong have Priam and his children done you that you are always so insistent on ruining the well-built town of Troy? If you went through the gates of those high walls and ate up Priam raw, and Priam’s children, and all the other Trojans, only then you might be cured of rage. But as you wish. This little disagreement must not cause 50 a rift between us two in times to come. But let me tell you something now. Take heed. 40 Next time I crave the total devastation of any city whose inhabitants are dear to you, you must not thwart
+Then Agamemnon, lord of men, replied, 140 “Old sir, you are not wrong when you describe all my delusional behavior. I was deluded. I do not deny it. A man whom Zeus particularly loves is worth a multitude of other men. So now the god has glorified that man, by ruining the army of the Greeks. I know I was deluded when I yielded to my destructive impulse. So I want 120 to make amends with lavish gifts of friendship.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 208 | location 3189-3199 | Added on Thursday, 4 January 2024 18:32:57
+- Your Highlight on page 401 | location 6134-6149 | Added on Monday, 8 January 2024 08:24:22
 
-the god who musters clouds, was deeply troubled. He answered, “Hera, you are very strange! What dreadful wrong have Priam and his children done you that you are always so insistent on ruining the well-built town of Troy? If you went through the gates of those high walls and ate up Priam raw, and Priam’s children, and all the other Trojans, only then you might be cured of rage. But as you wish. This little disagreement must not cause 50 a rift between us two in times to come. But let me tell you something now. Take heed. 40 Next time I crave the total devastation of any city whose inhabitants are dear to you, you must not thwart my anger. Allow me that because I gave you this
+shall enumerate for all of you my generous and splendid gifts to him. Seven new tripods and ten pounds of gold, twenty bright cauldrons and twelve racehorses, strong stallions whose speed has won great prizes. Their winnings by themselves would make a man wealthy in treasure, rich in glorious gold. And I will also give him seven women, skillful in all the crafts, brought here from Lesbos when he himself destroyed their well-built home. 160 I chose them as my trophies from the spoils 130 because they conquered every other woman in beauty. With these others, I will give the one I took away from him—Briseis. And I shall swear a mighty oath, declaring that I have never gone to bed with her as is the normal way for men and women. I shall give him all this immediately, and in the future, if the gods allow us to sack and spoil the mighty town of Priam, 170 when we Greek warriors divide the loot, let him pile high his ship with gold and bronze, then choose another twenty Trojan women,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 209 | location 3200-3205 | Added on Thursday, 4 January 2024 18:33:13
+- Your Highlight on page 402 | location 6150-6160 | Added on Monday, 8 January 2024 08:24:38
 
-willingly, though my heart is far from willing. Of all the towns on earth where humans live beneath the sun, beneath the starry sky, none is more precious, none more dear to me 60 than holy Troy and Priam and the people of Priam with the good ash spear, because my altar there is always well provided with offerings of drink and roasted fat, which we receive as special gifts of honor.”
+whichever are the very most attractive, only surpassed in looks by Argive Helen. 140 And if we ever reach the land of Argos, the teat that feeds the earth, he shall become my son-in-law and I will cherish him, just as I do my own dear son Orestes, raised up in luxury and dearly loved. 180 I also have three daughters in my house, inside my well-built hall—Chrysothemis, Iphianassa, and Laodice. Let him choose one of them and take her back without a bride-price to his father’s house. And I will give him lavish wedding gifts, such as no father ever gave his daughter. And I shall give him seven well-built towns—
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 210 | location 3206-3209 | Added on Thursday, 4 January 2024 18:33:26
+- Your Highlight on page 408 | location 6254-6258 | Added on Monday, 8 January 2024 08:25:10
 
-Majestic ox-eyed Hera answered him, “I love three cities most of all by far— Mycenae with its spacious streets, and Sparta, and Argos. Any time you start to hate them, destroy them. I will not stand up for them
+Peleus, your father, advised you well, dear boy, when you were leaving 320 Phthia with Agamemnon. He said this— ‘You will get strength from Hera and Athena, if they so wish, my child. But you must curb your arrogance, the pride that swells inside you.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 245 | location 3749-3754 | Added on Thursday, 4 January 2024 20:09:41
+- Your Highlight on page 409 | location 6258-6259 | Added on Monday, 8 January 2024 08:25:18
 
-And Meges killed Antenor’s son Pedaeus, born out of wedlock, but his stepmother, Theano, cared for him like her own children, to please her husband. But the skillful spearman, Meges, the son of Phyleus, drew near him and struck his neck with his sharp spear. The tip, slicing up through his teeth, cut off his tongue. 70 He bit the cold bronze, falling in the dust.
+Better to have a heart that thinks of others. Hold back from conflicts that bring only trouble,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 250 | location 3827-3833 | Added on Thursday, 4 January 2024 20:10:29
+- Your Highlight on page 412 | location 6312-6316 | Added on Monday, 8 January 2024 08:25:58
 
-he moved towards the sons of Phaenops—Xanthus and Thoon, who were both full-grown. The father was frail and weakened by severe old age. He could not get another son as heir for his possessions. Diomedes killed both of them there, took both their lives away, and left their father grief and lamentation. He would not welcome them back home again 210 alive, after the war. His whole estate would be divided among distant heirs.
+I do not think the son of Atreus or any of the Greeks can change my mind, because I got no thanks for all my labors, constantly battling the enemy. A man who fights his hardest in the war gets just the same as one who stays behind. Cowards and heroes have the same reward. 320 Do everything or nothing—death still comes.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 250 | location 3825-3827 | Added on Thursday, 4 January 2024 20:10:57
+- Your Highlight on page 412 | location 6317-6319 | Added on Monday, 8 January 2024 08:26:07
 
-The old man never read their dreams again. 200 They never went back home to him. Instead, powerful Diomedes killed them.
+I have endured great pain—I risked my life over and over in this endless war but I got nothing for
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 248 | location 3802-3806 | Added on Thursday, 4 January 2024 20:11:27
+- Your Highlight on page 412 | location 6317-6319 | Added on Monday, 8 January 2024 08:26:13
 
-If deathless gods come here to challenge you, 130 do not fight any of them face to face, 170 except for Aphrodite, child of Zeus. If she approaches on the battlefield,
+I have endured great pain—I risked my life over and over in this endless war but I got nothing for it.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 249 | location 3806-3806 | Added on Thursday, 4 January 2024 20:11:35
+- Your Highlight on page 413 | location 6331-6336 | Added on Monday, 8 January 2024 08:26:37
 
-strike her and wound her with your piercing bronze.”
+Well, let him lie with her, let him enjoy her. Why should the Greeks make war against the Trojans? Why did he gather troops and bring us here? Was it not to retrieve a woman, Helen? 340 Are they the only men who love their women, those sons of Atreus? All good, fine men love their own women and take care of them, just as I loved that woman with my heart,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 258 | location 3954-3957 | Added on Thursday, 4 January 2024 20:12:15
+- Your Highlight on page 414 | location 6336-6337 | Added on Monday, 8 January 2024 08:26:44
 
-He threw his spear at Pandarus. Athena steered it beneath his eye and through his nose, smashing his white teeth. Then the tireless bronze cut off his tongue, right at the root—the tip
+although she was a captive of my spear. But now that he has robbed me of my trophy,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 259 | location 3957-3959 | Added on Thursday, 4 January 2024 20:12:29
+- Your Highlight on page 414 | location 6338-6341 | Added on Monday, 8 January 2024 08:26:56
 
-emerged again beneath his chin. He fell out of the chariot. His dazzling armor and shining weapons clattered all around him. His swift-hoofed horses swerved and galloped off.
+stolen my winnings from my grasp, and tricked me, let him not try to sway me now. I know him. He will not change my mind. Let him decide along with you, Odysseus, and others, how to protect the ships from deadly fire. He certainly has worked quite hard without me. He built a wall and dug a ditch around it,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 261 | location 3996-3998 | Added on Thursday, 4 January 2024 20:13:00
+- Your Highlight on page 414 | location 6343-6344 | Added on Monday, 8 January 2024 08:27:06
 
-He recognized the goddess who lacks all courage on the battlefield— unlike the goddesses who dominate in mortal wars, Athena and Enyo, sacker of cities.
+so wide and deep, and fixed sharp stakes along it. But even so, he cannot block the onslaught of murderous Hector in his deadly strength.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 263 | location 4023-4027 | Added on Thursday, 4 January 2024 20:13:40
+- Your Highlight on page 461 | location 7062-7065 | Added on Wednesday, 10 January 2024 13:13:53
 
-“Dear brother, help me, please! 480 Give me your horses, so that I can go 360 to Mount Olympus where immortals live. I am in agony from a dreadful wound inflicted on me by a mortal man, the son of Tydeus, who now intends even to fight against our father Zeus.”
+Odysseus the strategist responded, “And do the allies sleep among the Trojans, 530 or separately? Tell me and let me know.” Dolon, the son of rich Eumedes, answered, “I shall explain it all to you in detail.
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 264 | location 4041-4046 | Added on Thursday, 4 January 2024 20:14:39
+- Your Highlight on page 461 | location 7066-7081 | Added on Wednesday, 10 January 2024 13:14:08
 
-Laughter-loving Aphrodite answered her, “I was wounded by the son of Tydeus, that arrogant Diomedes, because I took my dear son from the battle— my son Aeneas, whom I love the most of anyone by far. The violent fighting is now no longer Trojans against Greeks. 380 510
+Towards the sea, these allies are encamped— Paeonians who carry curving bows, Carians, Leleges, godlike Pelasgians, 430 and the Caucones. Towards Thymbre lie Lycians, fine Mysians, Phrygians with warhorses and the Maeonians, great charioteers. But why exactly do you ask me this? 540 If you two really want to penetrate the Trojan camp, the Thracians are most distant from everybody else. They just arrived. Their leader is the son of Eion, Rhesus. He has the biggest, finest stallions that I have ever seen. Their coats are whiter than snow, and they can run as fast as wind. His chariot is set with gold and silver, and he has massive weapons made of gold, 440 astonishing to see. He brought them here. 550 They do not seem like weapons for a mortal, but such as the immortal gods would carry. Now please escort me to your nimble ships, or tie me up with tight and cruel bonds and leave me here alive, while you go there and find out if I told the truth or not.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 264 | location 4046-4046 | Added on Thursday, 4 January 2024 20:15:06
+- Your Highlight on page 462 | location 7082-7091 | Added on Wednesday, 10 January 2024 13:14:30
 
-The Greeks are fighting the immortal gods!”
+But mighty Diomedes scowled at him, and told him, “Dolon, you must clear your mind of any thought that you might get away, although you gave us useful information. 560 You see, you came into our hands already. So if we ransom you or let you go, 450 you might come back to spy on the Greek ships or fight against us, whereas if my hands obliterate you now, and you are dead, you cannot be a bother to the Greeks ever again.” At these words, Dolon tried to supplicate. He reached to grasp his chin. But Diomedes instantly attacked. He drew his sword and stabbed through Dolon’s neck
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 264 | location 4047-4053 | Added on Friday, 5 January 2024 06:45:22
+- Your Highlight on page 458 | location 7023-7034 | Added on Wednesday, 10 January 2024 13:15:05
 
-Dione, the majestic goddess, answered, “My child, be strong and bear your suffering. Many of us who live on Mount Olympus have suffered at the hands of men, when gods and humans have been injuring each other. Ares was hurt when mighty Ephialtes and Otus, sons of Aloeus, trapped him in tight confinement. They imprisoned him for thirteen months inside a bronze container. 520 Ares, with his insatiable desire for warfare, would have died—
+Through tears, he begged them, “Please take me alive! I will pay my own ransom. We have gold 380 and bronze and well-wrought iron in my house, from which my father will bestow on you a lavish ransom payment, if he learns that I am still alive beside your ships.” Cunning Odysseus said, “Do not worry. Set thoughts of death aside. But tell me this, 480 and tell the truth in every point of detail. Why did you leave the Trojan camp alone and come towards our ships? Where are you going, in pitch-black night when other mortals sleep? Did you come here to strip the arms and armor from one of these dead bodies? Or did Hector send you to spy on what is going on beside the hollow ships? Or were you prompted by your own impulses?”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 264 | location 4047-4056 | Added on Friday, 5 January 2024 06:45:32
+- Your Highlight on page 535 | location 8190-8197 | Added on Wednesday, 10 January 2024 13:16:44
 
-Dione, the majestic goddess, answered, “My child, be strong and bear your suffering. Many of us who live on Mount Olympus have suffered at the hands of men, when gods and humans have been injuring each other. Ares was hurt when mighty Ephialtes and Otus, sons of Aloeus, trapped him in tight confinement. They imprisoned him for thirteen months inside a bronze container. 520 Ares, with his insatiable desire for warfare, would have died—but their stepmother, most beautiful Eeriboea, told 390 Hermes, who secretly got Ares out. Ares had suffered very much by then.
+“You always criticize me when I make good suggestions in council meetings, Hector. I suppose a common man must not speak out of turn in the assembly or the battlefield. We always have to magnify your power. But I shall say what I believe is best. 260 We should not go and fight beside the ships, because I think I know what will take place now that this bird, the eagle, has appeared when we were wondering if we should cross. The eagle flew up high from right to left and held the army back. His talons clutched
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 265 | location 4057-4059 | Added on Friday, 5 January 2024 06:45:48
+- Your Highlight on page 535 | location 8198-8205 | Added on Wednesday, 10 January 2024 13:16:52
 
-Hera was also hurt when Heracles, Amphitryon’s strong son, struck her right breast, using an arrow with a triple barb. The agony she felt could not be soothed.
+a huge red snake, alive, but let him go and failed to bring the prize back to his home to give it to his children. So we Trojans, even if we break through the gates and wall 270 and make the Greeks give way to our great strength, will then retrace our steps haphazardly, with many of our number left behind, slaughtered with Greek bronze as they fight to save their ships. A prophet trusted by the people, who clearly understood the signs of gods, would surely offer this interpretation.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 265 | location 4060-4062 | Added on Friday, 5 January 2024 06:46:20
+- Your Highlight on page 536 | location 8206-8213 | Added on Wednesday, 10 January 2024 13:16:58
 
-Along with these, among the dead in Pylos, gigantic Hades suffered when that same Heracles, son of Zeus who bears the aegis, shot a swift arrow, struck him, and consigned him to pain. In his distress,
+But Hector, helmet flashing, scowled and said, “Polydamas, your words no longer please me. You know how to come up with better counsel. 280 If you are serious in saying this, the gods must have deprived you of your wits. You tell me to forget the guidance given to me by Zeus himself, the god of thunder, who bowed his head to promise me success! You tell me to put all my trust in birds who flutter by. But birds are meaningless! I do not worry about them at all,
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 290 | location 4447-4450 | Added on Friday, 5 January 2024 12:55:20
+- Your Highlight on page 536 | location 8213-8224 | Added on Wednesday, 10 January 2024 13:17:09
 
-“Diomedes, son of Tydeus, dear to my heart, do not be scared of Ares, nor any of the other deathless gods, because I will be there to keep you safe. Come on now, drive your horses straight at Ares, and strike him close at hand. Do not hold back
+whether they fly towards the sun and dawn, 240 eastward to right of us, or westward, left, 290 towards the darkness. Let us trust instead the plan of mighty Zeus who rules us all, the lord of mortals and immortal gods. Patriotism is the one true bird. Why are you scared of war and violence? Even if all the rest of us are killed beside the Greek ships, there is still no danger that you will die—because you have no courage, and no capacity to stand and fight! But if you flinch from battle, or advise 300 anyone else to turn back from the fighting, 250 I shall immediately hurl my spear and slaughter you.”
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 291 | location 4451-4455 | Added on Friday, 5 January 2024 12:55:36
+- Your Highlight on page 540 | location 8277-8290 | Added on Wednesday, 10 January 2024 13:17:48
 
-from that shapeshifter. He was made for trouble— 1090 violent, and aggressive, and insane. He promised me and Hera earlier that he would help the Greeks and fight the Trojans. But now he is colluding with the Trojans and has forgotten all about the Greeks.”
+“Why is it, Glaucus, 310 that you and I receive such lavish honors? Why do we get the finest seats at banquets, 380 full cups of wine, the choicest cuts of meat? And why does everyone in Lycia gaze at both of us as if we were divine? Why was a large estate assigned to us beside the banks of Xanthus, lovely land of vineyards and of plowland thick with wheat? Because we have to stand beside our people, out on the front line and confront the heat of battle, so that any Lycian fighter, clad in thick armor, may declare, ‘Our rulers, 390 the men who hold great sway in Lycian lands, are not dishonorable. They eat fat sheep 320 and drink good vintage wine as sweet as honey, but they are also brave and strong. They fight among the Lycian fighters at the front.’
 ==========
 ﻿Iliad (Homer)
-- Your Highlight on page 294 | location 4504-4512 | Added on Friday, 5 January 2024 12:57:12
+- Your Highlight on page 540 | location 8277-8290 | Added on Wednesday, 10 January 2024 13:17:55
 
-Cloud-gathering Zeus replied with scowling brows, “Shapeshifter, do not sit with me and whine. Of all the gods who live on Mount Olympus 890 you are the one I hate the most. You always enjoy hostility and war and battle. 1170 You have the spirit of your mother in you, Hera, who will not yield or be controlled, and I can scarcely check her with my words. These things have happened to you, I believe, because you did as she had prompted you. And yet I will not let you suffer long, because you are my son, I fathered you, although she gave you birth.
+“Why is it, Glaucus, 310 that you and I receive such lavish honors? Why do we get the finest seats at banquets, 380 full cups of wine, the choicest cuts of meat? And why does everyone in Lycia gaze at both of us as if we were divine? Why was a large estate assigned to us beside the banks of Xanthus, lovely land of vineyards and of plowland thick with wheat? Because we have to stand beside our people, out on the front line and confront the heat of battle, so that any Lycian fighter, clad in thick armor, may declare, ‘Our rulers, 390 the men who hold great sway in Lycian lands, are not dishonorable. They eat fat sheep 320 and drink good vintage wine as sweet as honey, but they are also brave and strong. They fight among the Lycian fighters at the front.’ You see, my brother, if we could escape
+==========
+﻿Iliad (Homer)
+- Your Highlight on page 541 | location 8290-8297 | Added on Wednesday, 10 January 2024 13:18:13
+
+this war and then be free from age and death forever, I would never choose to fight or join the champion fighters at the front, nor would I urge you to participate 400 in war where men win glory. But in fact, a million ways to die stand all around us. No mortal can escape or flee from death. So let us go. Perhaps we shall succeed, and win a triumph from another’s death, or somebody may triumph over us.” So spoke Sarpedon, and without delay Glaucus agreed. The two plunged straight ahead,
 ==========
